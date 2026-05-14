@@ -21,6 +21,7 @@ public:
         not_empty_.notify_one();
     }
 
+    // pop
     int pop() {
         std::unique_lock<std::mutex> lock(mutex_);
         not_empty_.wait(lock, [this] { return !queue_.empty(); });
