@@ -7,6 +7,7 @@
 #include <arpa/inet.h>
 #include <time.h>
 
+//dev2
 int main(int argc, char *argv[]) {
     if (argc != 4) {
         printf("Usage: %s <server_ip> <port> <duration_seconds>\n", argv[0]);
