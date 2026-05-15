@@ -53,6 +53,7 @@ static void free_list(Node *head) {
     }
 }
 
+//main
 int main(void) {
     Node *head = NULL;
 
