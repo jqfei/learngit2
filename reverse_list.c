@@ -6,6 +6,7 @@ typedef struct Node {
     struct Node *next;
 } Node;
 
+//push_front
 static Node *push_front(Node *head, int value) {
     Node *node = malloc(sizeof(*node));
     if (node == NULL) {
